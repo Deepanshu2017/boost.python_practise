@@ -15,7 +15,7 @@ class Dog : public Static_Ploymorphism<Dog> {
 		Dog() {
 			cout << "I am n contructor of class Dog" << endl;
 		}
-		void bark() {
+		virtual void bark() {
 			cout << "I am bark of class Dog" << endl;
 		}
 }; 
@@ -25,7 +25,7 @@ class YellowDog : public Static_Ploymorphism<YellowDog> {
 		YellowDog() {
 			cout << "I am in contructor of YellowDog" << endl;
 		}
-		void bark() {
+		virtual void bark() {
 			cout << "I am in bark of YellowDog" << endl;
 		}
 };
